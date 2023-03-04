@@ -1,72 +1,82 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Three Rivers Resort Booking</title>
 
-    
-    <head>
-        <title>Three Rivers Resort Booking</title>
-        
-      <link rel="stylesheet" href="styles.css">
-    </head>
-       
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-        <body>
-            <header>
-                <h1>Three Rivers Resort</h1>
-                <h3>Pittsburgh’s Finest Luxury Destination</h3>
-            </header>
+  <body>
+    <header>
+      <h1 id="resort-title">Three Rivers Resort</h1>
+      <h3 id="resort-description">Pittsburgh’s Finest Luxury Destination</h3>
+    </header>
 
-            <form method="GET" action="results.html">
-                <div>
-                    <label for="name">First Name</label>
-                    <input required minLength="3" maxlength="15" type="text" name="first-name" id="first-name">
-                </div>
-                <div>
-                    <label>Last Name</label>
-                    <input required minLength="3" maxlength="15" type="text" name="last-name" id="last-name">
-                </div>
-                <div>
-                    <label>E-Mail</label>
-                    <input required type="email" name="e-mail" id="e-mail">
-                </div>
-                <div>
-                    <label>Address</label>
-                    <input required type="text" name="address" id="address">
-                </div>
-                <div>
-                    <label>Rooms</label>
-                    <select required>
-                        <option value=""></option>
-                        <option value="one-room">1 Standard</option>
-                        <option value="two-room">2 Standard</option>
-                    </select>
-                </div>
-                <div>
-                    <label>Adults</label>
-                    <select required>
-                        <option value=""></option>
-                        <option value="one-adult">1 Adult</option>
-                        <option value="two-adult">2 Adults</option>
-                        <option value="three-adult">3 Adults</option>
-                        <option value="four-adult">4 Adults</option>
-                    </select>
-                </div>
-                <div>
-                    <label>Nights</label>
-                    <select required>
-                        <option value=""></option>
-                        <option value="one-night">1 Night</option>
-                        <option value="two-night">2 Nights</option>
-                        <option value="three-night">3 Nights</option>
-                        <option value="four-night">4 Nights</option>
-                        <option value="five-night">5 Nights</option>
-                        <option value="six-night">6 Nights</option>
-                        <option value="seven-night">7 Nights</option>
-                    </select>
-                </div>
-                <div>
-                    <button id="confirm-booking">Confirm Reservation</button>
-                </div>
-            </form>
-        </body>
-
+    <form id="booking-form" method="GET" action="results.html">
+      <div>
+        <label for="name">First Name</label>
+        <input
+          required
+          minlength="3"
+          maxlength="15"
+          type="text"
+          name="first-name"
+          id="first-name"
+        />
+      </div>
+      <div>
+        <label>Last Name</label>
+        <input
+          required
+          minlength="3"
+          maxlength="15"
+          type="text"
+          name="last-name"
+          id="last-name"
+        />
+      </div>
+      <div>
+        <label>E-Mail</label>
+        <input required type="email" name="e-mail" id="e-mail" />
+      </div>
+      <div>
+        <label>Address</label>
+        <input required type="text" name="address" id="address" />
+      </div>
+      <div>
+        <label>Rooms</label>
+        <select required>
+          <option value=""></option>
+          <option value="one-room">1 Standard</option>
+          <option value="two-room">2 Standard</option>
+        </select>
+      </div>
+      <div>
+        <label>Adults</label>
+        <select required>
+          <option value=""></option>
+          <option value="one-adult">1 Adult</option>
+          <option value="two-adult">2 Adults</option>
+          <option value="three-adult">3 Adults</option>
+          <option value="four-adult">4 Adults</option>
+        </select>
+      </div>
+      <div>
+        <label>Nights</label>
+        <select required>
+          <option value=""></option>
+          <option value="one-night">1 Night</option>
+          <option value="two-night">2 Nights</option>
+          <option value="three-night">3 Nights</option>
+          <option value="four-night">4 Nights</option>
+          <option value="five-night">5 Nights</option>
+          <option value="six-night">6 Nights</option>
+          <option value="seven-night">7 Nights</option>
+        </select>
+      </div>
+      <div>
+        <button id="confirm-booking">Confirm Reservation</button>
+      </div>
+    </form>
+  </body>
 </html>

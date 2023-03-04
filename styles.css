@@ -1,59 +1,57 @@
 body {
-    background-image: url('Pittsburgh1-1050x485.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: 'Work Sans', sans-serif;
-  }
+  background-image: url('Pittsburgh1-1050x485.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Work Sans', sans-serif;
+}
 
-  form {
-    margin: 0 auto; 
-    width:250px;
-    background-color:rgba(23, 22, 12, 0.416);
-    border-radius: 5px;
-    
-  }
-  h1{
-    text-align: center;
-  }
+#booking-form {
+  margin: 0 auto;
+  width: 250px;
+  background-color: rgba(23, 22, 12, 0.416);
+  border-radius: 5px;
+}
+#resort-title {
+  text-align: center;
+}
 
-  h3 {
-    text-align: center;
-  }
+#resort-description {
+  text-align: center;
+}
 
-  input[type=text] {
-    padding:5px;
-    margin:5px ; 
-    box-shadow:0 0 10px 4px #dad36a0f;
-    border-radius: 10px;
-  }
+input[type='text'] {
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 0 10px 4px #dad36a0f;
+  border-radius: 10px;
+}
 
-  input[type=email]{
-    padding:5px;
-    margin:5px ; 
-    box-shadow:0 0 10px 4px #28270631;
-    border-radius: 10px;
-  }
+input[type='email'] {
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 0 10px 4px #28270631;
+  border-radius: 10px;
+}
 
-  .rounded-input {
-    padding:10px;
-    border-radius:10px;
-  }
+.rounded-input {
+  padding: 10px;
+  border-radius: 10px;
+}
 
-  label {
-    color: yellow
-  }
+label {
+  color: yellow;
+}
 
-  select {
-    padding:2px;
-    margin: 5px;
-    border-radius:3px;
-  }
+select {
+  padding: 2px;
+  margin: 5px;
+  border-radius: 3px;
+}
 
-  button {
-    padding:5px;
-    margin:5px ; 
-    border-radius: 10px;
-    width: 240px
-  }
-
+#confirm-booking {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  width: 240px;
+}
