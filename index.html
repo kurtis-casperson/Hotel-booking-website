@@ -25,32 +25,32 @@
             <form method="GET" action="results.html">
                 <div>
                     <label for="name">First Name</label>
-                    <input type="text" name="first-name" id="first-name">
+                    <input required minLength="3" maxlength="15" type="text" name="first-name" id="first-name">
                 </div>
                 <div>
                     <label>Last Name</label>
-                    <input type="text" name="last-name" id="last-name">
+                    <input required minLength="3" maxlength="15" type="text" name="last-name" id="last-name">
                 </div>
                 <div>
                     <label>E-Mail</label>
-                    <input type="text" name="e-mail" id="e-mail">
+                    <input required type="email" name="e-mail" id="e-mail">
                 </div>
                 <div>
                     <label>Address</label>
-                    <input type="text" name="address" id="address">
+                    <input required type="text" name="address" id="address">
                 </div>
                 <div>
                     <label>Rooms</label>
-                    <select>
-                        <option value="Placeholder-rooms"></option>
+                    <select required>
+                        <option value=""></option>
                         <option value="one-room">1 Standard</option>
                         <option value="two-room">2 Standard</option>
                     </select>
                 </div>
                 <div>
                     <label>Adults</label>
-                    <select>
-                        <option value="Placeholder-adults"></option>
+                    <select required>
+                        <option value=""></option>
                         <option value="one-adult">1 Adult</option>
                         <option value="two-adult">2 Adults</option>
                         <option value="three-adult">3 Adults</option>
@@ -59,8 +59,8 @@
                 </div>
                 <div>
                     <label>Nights</label>
-                    <select>
-                        <option value="Placeholder-nights"></option>
+                    <select required>
+                        <option value=""></option>
                         <option value="one-night">1 Night</option>
                         <option value="two-night">2 Nights</option>
                         <option value="three-night">3 Nights</option>
